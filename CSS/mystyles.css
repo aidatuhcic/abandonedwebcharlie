@@ -10,6 +10,7 @@
 /* Body element added by Aida on April 7th */
 html, body {
     font-family: "Monsterrat", sans-serif; 
+    color: grey; 
 } 
 
 /* Padding indentation for to set the bottom margin of the image. */
@@ -40,4 +41,8 @@ html, body {
    In this instance !important is added to add more "importance to the spacing of the width of the mobile nav links. */
 .w3-bar-item w3-button {
     width: 22% !important; 
+}
+
+.footer {
+  color: grey; 
 }
