@@ -3,6 +3,9 @@ A repository to host Web Charlie's (2022) final group project from GEOM 99.
 
 GROUP PLAN with SMART Criteria
 
+BETA Website plan
+
+
 Before April 7th meeting:
 
 EVERYONE
@@ -92,7 +95,7 @@ Measure(s) of progress:
 
 Due: 07th April 2021
 
-BETA Website plan
+
 
 
 
