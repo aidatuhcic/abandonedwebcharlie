@@ -1,12 +1,37 @@
-
-
-
-h {
-  color: white;
-  text-align: center;
+@charset "UTF-8";
+/* Added by Aida Tuhcic on April 7th, * is an universal selector */
+/* Following text below is explained by Aida Tuhcic. */
+* {
+  /* Box sizing sets the total width and height of the page. */
+  /* Border box includes content, border and padding of the width and height properties.  */
+  box-sizing: border-box; 
 }
 
-pa {
-  font-family: verdana;
-  font-size: 20px;
+/* Body element added by Aida on April 7th */
+html, body {
+  font-family: "Monsterrat", sans-serif; 
+} 
+
+/* Padding indentation for to set the bottom margin of the image. */
+.w3-row-padding img {
+  margin-bottom: 12px; 
+}
+
+/* Navigational sidebar added. */
+.w3-sidebar {
+  width: 120px; 
+  background: #222;
+}
+
+/* Left margin added in order to match the sidebar. */
+/* #main targets the specific content of the document */
+#main {
+  margin-left: 120px; 
+}
+
+/* Media queries are added to render text properly when a user changes their browser points.
+ In this case the margin is being removed from small screen devices. */ 
+@media only screen and (max-width: 600px){
+  #main {margin-left: 0
+}
 }
