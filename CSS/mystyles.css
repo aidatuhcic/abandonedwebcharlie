@@ -10,7 +10,7 @@
 /* Body element added by Aida on April 7th */
 html, body {
     font-family: "Monsterrat", sans-serif; 
-    color: grey; 
+    background-color: black; 
 } 
 
 /* Padding indentation for to set the bottom margin of the image. */
@@ -35,11 +35,6 @@ html, body {
 @media only screen and (max-width: 600px){
     #main {margin-left: 0
   }
-}
-
-/* Navigational Bar for  mobile and medium/smaller viewport. */ 
-.myNav {
-  color: #36473D;
 }
 
 /* Spaces the mobile and medium/smaller viewport devices navigational bar apart from one another. 
