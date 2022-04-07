@@ -3,10 +3,66 @@ A repository to host Web Charlie's (2022) final group project from GEOM 99.
 
 GROUP PLAN with SMART Criteria
 
-BETA Website plan
+BETA Website plan (14th April 2022)
+
+EVERYONE
+
+Realistic Goal(s):
+- 
+
+Measure(s) of progress:
+ 
+
+Due: 14th April 2021
+
+AIDA
+
+Realistic Goal(s):
 
 
-Before April 7th meeting:
+Measure(s) of progress:
+-
+
+Future Goals: 
+
+
+Due: April 14th, 2022.
+
+BHARAT
+
+Realistic Goal(s):
+
+
+Measure(s) of progress:
+-created Dashboard and started woring on web solution for map
+
+Due:
+
+MANSI 
+
+Realistic Goal(s):
+
+
+
+Measure(s) of progress:
+
+
+Due: April 14th, 2022.
+
+SUNAYANA
+
+Realistic Goal(s): 
+
+
+
+Measure(s) of progress:
+
+
+
+Due: April 14th, 2022
+
+
+**Before April 7th meeting:**
 
 EVERYONE
 
