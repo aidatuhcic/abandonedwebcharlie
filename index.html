@@ -21,43 +21,91 @@
     <!-- style sheet link --> 
     <link rel="stylesheet" href="CSS/mystyles.css">
 
-
+<!-- beginning of the body -->
 <body class="w3-black">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <a href="#h" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge" aria-hidden="true"></i>
-    <p>Home.</p>
-  </a>
-  <a href="#problem" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-exclamation-circle w3-xxlarge" aria-hidden="true"></i>
-    <p>Problem.</p>
-  </a>
-  <a href="#process" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-cogs w3-xxlarge" aria-hidden="true"></i>
-    <p>Process.</p>
-  </a>
-  <a href="#solution" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-lightbulb-o w3-xxlarge" aria-hidden="true"></i>
-    <p>Solution.</p>
-  </a>
-  <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-users w3-xxlarge" aria-hidden="true"></i>
-    <p>Team.</p>
-  </a>
+<!-- added new navigational icons, links and comments - added by Aida on April 7th. -->  
+<!-- the following is an icon bar that is hidden when a user is on a smaller device.-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- beginning of navigation icons -->
+
+    <!-- home -->
+    <!-- a href, links user back to the homepage. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <!-- i class refers to home image icon used. -->  
+      <i class="fa fa-home w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>HOME.</p>
+    </a>
+    <!-- end of home -->
+
+    <!-- problem -->
+    <!-- a href, links user back to the problem. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#problem" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <!-- i class refers to problem image icon used. --> 
+      <i class="fa fa-exclamation-circle w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROBLEM.</p>
+    </a>
+    <!-- end of problem -->
+
+    <!-- process -->
+    <!-- a href, links user back to the process. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#process" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to process image icon used. --> 
+      <i class="fa fa-cogs w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROCESS.</p>
+    </a>
+    <!-- end of process -->
+
+    <!-- solution -->
+    <!-- a href, links user back to the solution. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#solution" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to solution image icon used. --> 
+      <i class="fa fa-lightbulb-o w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>SOLUTION.</p>
+    </a>
+    <!-- end of solution -->
+
+    <!-- team -->
+    <!-- a href, links user back to the team. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to team image icon used. --> 
+      <i class="fa fa-users w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>TEAM.</p>
+    </a>
+    <!-- end of team -->
+
+  <!-- end of navigational icons.-->
 </nav>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+<!-- beginning of the mobile and medium/smaller viewport devices navigational bar -->
+<!--class attribute, groups all elements in this class together. --> 
+<!-- id refers to the unique page and applies to that single element (myNav). -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNav">
+    <!--class attribute, groups all elements in this class together. --> 
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <!-- home mobile link -->
+    <a href="#" class="w3-bar-item w3-button">HOME.</a>
+    <!-- problem mobile link -->
+    <a href="#problem" class="w3-bar-item w3-button">PROBLEM.</a>
+    <!-- process mobile link -->
+    <a href="#process" class="w3-bar-item w3-button">PROCESS.</a>
+    <!-- solution mobile link -->
+    <a href="#solution" class="w3-bar-item w3-button">SOLUTION.</a>
+    <!-- team mobile link -->
+    <a href="#team" class="w3-bar-item w3-button">TEAM.</a>
   </div>
 </div>
+<!-- end of the mobile and medium/smaller viewport devices navigational bar -->
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
@@ -78,19 +126,13 @@
     </div>
   </div>
 
-    <!-- Footer -->
+  <!-- beginning of the footer -->
+  <!-- edited and commented by Aida on April 7th -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
+    <p class="w3-medium">Copyright &#169; <a href="" target="_blank" class="w3-hover-text-green">Web Charlie 2022.</a></p>
+  <!-- end of the footer -->
   </footer>
 
-<!-- END PAGE CONTENT -->
 </div>
 
 </body>
