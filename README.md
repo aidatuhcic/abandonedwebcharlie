@@ -82,7 +82,6 @@ Measure(s) of progress:
 - Created HTML pages for solution, process, team, problem.
 - Added the website template chosen from W3 schools to the index page.
 - Created a group  ArcGIS Developer's account and shared login details with team.
-- Uploaded required Toronto Parks shapefile and Blacklegged tick surveillance CSV on group ArcGIS developer's account. 
 - Updated Readme.md doc to follow SMART Criteria.
 - Updated solution, process, team and problem webpages with initial content and template. 
 
