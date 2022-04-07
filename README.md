@@ -81,6 +81,7 @@ Measure(s) of progress:
 - Added folders for images, JavaScript and CSS. 
 - Created HTML pages for solution, process, team, problem.
 - Added the website template chosen from W3 schools to the index page.
+- Deleted unwanted code corresponding to a contact me section and photo display from the template.
 - Created a group  ArcGIS Developer's account and shared login details with team.
 - Updated Readme.md doc to follow SMART Criteria.
 - Updated solution, process, team and problem webpages with initial content and template. 
