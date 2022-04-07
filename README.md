@@ -54,9 +54,17 @@ Due:
 MANSI 
 
 Realistic Goal(s):
+- Created a ArcGIS Online group to host the data layers and other items.
+- Setting up data for Interactive map creation.
+- Start with the project solution.
 
 
 Measure(s) of progress:
+- Created a group for ArcGIS Online.
+- Sorted the data from years 2015 to 2019.
+- Sorting the data by total amounts.
+- Added the hosted feature layers to AGOL for 2015 to 2019 data layers.
+- Added the Parks of Toronto Hosted Feature layer to AGOL.
 
 
 Due: 
