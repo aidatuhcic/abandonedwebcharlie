@@ -10,6 +10,7 @@
 /* Body element added by Aida on April 7th */
 html, body {
     font-family: "Monsterrat", sans-serif; 
+    background-color: black; 
 } 
 
 /* Padding indentation for to set the bottom margin of the image. */
