@@ -32,8 +32,9 @@ Measure(s) of progress:
 - Added a mobile navigational bar to the web page. 
 - Added a main (content) and footer to the webpage.
 - Deleted the main CSS from the HTML and started to create the CSS in it's seperate folder. 
-- Added detailed comments throughout the HTML/CSS in order for other group members to see the changes made/organized. 
-- Updated Read.me Doc. 
+- Added detailed comments throughout the HTML/CSS in order for other group members to see the changes made/organized.
+- Fixed current HTML errors. 
+- Updated Readme.md Doc. 
 
 Future Goals: 
 - Before the weekend to convert the webpage into "close" HTML/CSS and get rid of any other hidden CSS not needed in the HTML.
