@@ -21,7 +21,7 @@ html, body {
 /* Navigational sidebar added. */
 .w3-sidebar {
     width: 120px; 
-    background: #222;
+    background: #36473D;
 }
 
 /* Left margin added in order to match the sidebar. */
@@ -37,12 +37,19 @@ html, body {
   }
 }
 
+/* Navigational Bar for  mobile and medium/smaller viewport. */ 
+.myNav {
+  color: #36473D;
+}
+
 /* Spaces the mobile and medium/smaller viewport devices navigational bar apart from one another. 
    In this instance !important is added to add more "importance to the spacing of the width of the mobile nav links. */
 .w3-bar-item w3-button {
     width: 22% !important; 
 }
 
+/* Footer */
 .footer {
   color: grey; 
+  padding: 64px; 
 }
