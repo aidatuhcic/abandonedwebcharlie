@@ -1,12 +1,192 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<!DOCTYPE html>
+<!-- beginning of the html -->
+<html lang="en">
+  <!-- beginning of head -->
+  <head>
+    <!-- titled changed by Sunayana on April 7th -->
+    <title>Process</title>
+    <!-- fav icon added by Aida on April 7th-->
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <!-- html unicode -->
+    <meta charset="UTF-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- w3school style sheet link --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- google fonts - specifically to Montserrat font --> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style sheet link --> 
+    <link rel="stylesheet" href="CSS/mystyles.css">
+
+<!-- beginning of the body -->
+<body class="w3-black">
+
+<!-- added new navigational icons, links and comments - added by Aida on April 7th. -->  
+<!-- the following is an icon bar that is hidden when a user is on a smaller device.-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- beginning of navigation icons -->
+
+    <!-- home -->
+    <!-- a href, links user back to the homepage. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to home image icon used. -->  
+      <i class="fa fa-home w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>HOME.</p>
+    </a>
+    <!-- end of home -->
+
+    <!-- problem -->
+    <!-- a href, links user back to the problem. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#problem" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to problem image icon used. --> 
+      <i class="fa fa-exclamation-circle w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROBLEM.</p>
+    </a>
+    <!-- end of problem -->
+
+    <!-- process -->
+    <!-- a href, links user back to the process. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#process" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to process image icon used. --> 
+      <i class="fa fa-cogs w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROCESS.</p>
+    </a>
+    <!-- end of process -->
+
+    <!-- solution -->
+    <!-- a href, links user back to the solution. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#solution" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to solution image icon used. --> 
+      <i class="fa fa-lightbulb-o w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>SOLUTION.</p>
+    </a>
+    <!-- end of solution -->
+
+    <!-- team -->
+    <!-- a href, links user back to the team. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to team image icon used. --> 
+      <i class="fa fa-users w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>TEAM.</p>
+    </a>
+    <!-- end of team -->
+
+  <!-- end of navigational icons.-->
+</nav>
+
+<!-- beginning of the mobile and medium/smaller viewport devices navigational bar -->
+<!--class attribute, groups all elements in this class together. --> 
+<!-- id refers to the unique page and applies to that single element (myNav). -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNav">
+    <!--class attribute, groups all elements in this class together. --> 
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <!-- home mobile link -->
+    <a href="#" class="w3-bar-item w3-button">HOME.</a>
+    <!-- problem mobile link -->
+    <a href="#problem" class="w3-bar-item w3-button">PROBLEM.</a>
+    <!-- process mobile link -->
+    <a href="#process" class="w3-bar-item w3-button">PROCESS.</a>
+    <!-- solution mobile link -->
+    <a href="#solution" class="w3-bar-item w3-button">SOLUTION.</a>
+    <!-- team mobile link -->
+    <a href="#team" class="w3-bar-item w3-button">TEAM.</a>
+  </div>
+</div>
+<!-- end of the mobile and medium/smaller viewport devices navigational bar -->
+
+<!-- beginning of the main (content) -->
+
+<!-- class attribute, groups all elements in this class together. --> 
+<!-- id refers to the unique page and applies to that single element (main). -->
+<div class="w3-padding-large" id="main">
+  
+  <!-- beginning of the header -->
+  <!-- id refers to the unique page and applies to that single element (home). -->
+ <header class="w3-container w3-padding-32 w3-center" id="home">
+    <!-- banner images created by Aida Tuhcic. -->
+    <img src="images/banner.jpg" alt="banner" class="w3-image">
+ </header>  
+
+  <!-- beginning of problem section -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (problem). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="problem">
+    <h2 class="w3-text-light-grey">Choosing Our Topic</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- problem text -->
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <!-- end of problem section -->
+  </div>
+
+  <!-- beginning of process section -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (process). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="process">
+    <h2 class="w3-text-light-grey">Coming to the Best Solution</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- process text -->
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <!-- end of process section -->
+  </div>
+
+  <!-- beginning of solution section -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (solution). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="solution">
+    <h2 class="w3-text-light-grey">Steps involved</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- solution text -->
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <!-- end of solution section -->
+  </div>
+
+  <!-- beginning of team section -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (team). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="team">
+    <h2 class="w3-text-light-grey">Team Work</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- team text -->
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <!-- end of team section -->
+  
+    </div>
+  </div>
+<!-- end of the main (content) -->
+
+  <!-- beginning of the footer -->
+  <!-- edited and commented by Aida on April 7th -->
+  <footer class="w3-content w3-padding-64 w3-xlarge">
+    <p class="w3-medium">Copyright &#169; <a href="" target="_blank" class="w3-hover-text-green">Web Charlie 2022.</a></p>
+  <!-- end of the footer -->
+  </footer>
 
 </body>
+<!-- end of the body -->
 </html>
+<!-- end of the html -->
