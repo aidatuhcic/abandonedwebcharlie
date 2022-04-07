@@ -20,12 +20,26 @@ Due: 6th April 2021
 AIDA
 
 Realistic Goal(s):
-
+- Create a GitHub Repository for the group. 
+- Edit the core HTML and add CSS to the web page. 
+- Create a Image Banner and FavIcon for the website. 
 
 Measure(s) of progress:
+- Created a GitHub Repository for the group, and added other group members as collaborators. 
+- Deleted unwanted code that was not necessary.
+- Created and illustrated a banner and favicon for the webpage. 
+- Updated the navigational bar links and icons. 
+- Added a mobile navigational bar to the web page. 
+- Added a main (content) and footer to the webpage.
+- Deleted the main CSS from the HTML and started to create the CSS in it's seperate folder. 
+- Added detailed comments throughout the HTML/CSS in order for other group members to see the changes made/organized. 
+- Updated Read.me Doc. 
 
+Future Goals: 
+- Before the weekend to convert the webpage into "close" HTML/CSS and get rid of any other hidden CSS not needed in the HTML.
+- Maybe change the banner around, in the author's own words "It's kind of ugly rn." 
 
-Due: 
+Due: April 7th, 2022.
 
 BHARAT
 
