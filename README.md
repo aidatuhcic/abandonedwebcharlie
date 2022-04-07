@@ -48,6 +48,7 @@ Realistic Goal(s):
 
 
 Measure(s) of progress:
+-created Dashboard and started woring on web solution for map
 
 Due:
 
@@ -65,7 +66,7 @@ Measure(s) of progress:
 - Sorting the data by total amounts.
 - Added the hosted feature layers to AGOL for 2015 to 2019 data layers.
 - Added the Parks of Toronto Hosted Feature layer to AGOL.
-
+- Sent team a few links from ArcGIS Solutions that can be used for our web solution
 
 Due: 
 
@@ -85,6 +86,8 @@ Measure(s) of progress:
 - Created a group  ArcGIS Developer's account and shared login details with team.
 - Updated Readme.md doc to follow SMART Criteria.
 - Updated solution, process, team and problem webpages with initial content and template. 
+- Created a web map on ArcGIS Online and share with the group.
+- Edited syle of layer to make it better visually.
 
 
 Due: 07th April 2021
