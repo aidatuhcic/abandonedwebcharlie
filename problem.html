@@ -1,20 +1,191 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Problem Statement</title>
-</head>
-<body>
+<!-- beginning of the html -->
+<html lang="en">
+  <!-- beginning of head -->
+  <head>
+    <!-- titled changed by Sunayana on April 7th -->
+    <title>Blacklegged Ticks Surveillance in Toronto's Major Parks.</title>
+    <!-- fav icon added by Aida on April 7th-->
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <!-- html unicode -->
+    <meta charset="UTF-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- w3school style sheet link --> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- google fonts - specifically to Montserrat font --> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style sheet link --> 
+    <link rel="stylesheet" href="CSS/mystyles.css">
 
-<h1>The dangers of Blacklegged Ticks within Toronto's major parks</h1>
-<h2>Ideal</h2>
-<p>To promote awareness on the rising cases of the invasive blacklegged tick population within Toronto's parks through a user-friendly interactive map. </p>
-<h2>Reality</h2>
-<p>Lack of public and user-friendly web interactive map. The City of Toronto currently only provides raw data, but not a web map for users to view certain locations of the blacklegged ticks in the parks. As well, most of the population in Ontario resides in Toronto and the city is a hub for tourism. </p>
-<h2>Consequences</h2>
-<p>Lyme disease has been on a rising high, it's impacted the health of hundreds of people within Ontario and even major Canadian celebrities (have raised awareness.) The harmful ticks are destructive to other ecosystems and mamamals. The disease currently carries no permanent cure. </p>
-<h2>Proposal</h2>
-<p>To promote awareness on the rising cases of the invasive blacklegged tick population within Toronto's parks through a user-friendly interactive map. </p>  
-<h2>Technology Used</h2>
-<!-- Insert logos for- ArcGIS Online, ArcGIS ST (Conservation Outreach), github -->
-</body> 
+<!-- beginning of the body -->
+<body class="w3-black">
+
+<!-- added new navigational icons, links and comments - added by Aida on April 7th. -->  
+<!-- the following is an icon bar that is hidden when a user is on a smaller device.-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- beginning of navigation icons -->
+
+    <!-- home -->
+    <!-- a href, links user back to the homepage. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to home image icon used. -->  
+      <i class="fa fa-home w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>HOME.</p>
+    </a>
+    <!-- end of home -->
+
+    <!-- problem -->
+    <!-- a href, links user back to the problem. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#problem" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to problem image icon used. --> 
+      <i class="fa fa-exclamation-circle w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROBLEM.</p>
+    </a>
+    <!-- end of problem -->
+
+    <!-- process -->
+    <!-- a href, links user back to the process. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#process" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to process image icon used. --> 
+      <i class="fa fa-cogs w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>PROCESS.</p>
+    </a>
+    <!-- end of process -->
+
+    <!-- solution -->
+    <!-- a href, links user back to the solution. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#solution" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to solution image icon used. --> 
+      <i class="fa fa-lightbulb-o w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>SOLUTION.</p>
+    </a>
+    <!-- end of solution -->
+
+    <!-- team -->
+    <!-- a href, links user back to the team. -->
+    <!-- class attribute, groups all elements in this class together. -->
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <!-- i class refers to team image icon used. --> 
+      <i class="fa fa-users w3-xxlarge"></i>
+      <!-- paragraph element -->
+      <p>TEAM.</p>
+    </a>
+    <!-- end of team -->
+
+  <!-- end of navigational icons.-->
+</nav>
+
+<!-- beginning of the mobile and medium/smaller viewport devices navigational bar -->
+<!--class attribute, groups all elements in this class together. --> 
+<!-- id refers to the unique page and applies to that single element (myNav). -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNav">
+    <!--class attribute, groups all elements in this class together. --> 
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <!-- home mobile link -->
+    <a href="#" class="w3-bar-item w3-button">HOME.</a>
+    <!-- problem mobile link -->
+    <a href="#problem" class="w3-bar-item w3-button">PROBLEM.</a>
+    <!-- process mobile link -->
+    <a href="#process" class="w3-bar-item w3-button">PROCESS.</a>
+    <!-- solution mobile link -->
+    <a href="#solution" class="w3-bar-item w3-button">SOLUTION.</a>
+    <!-- team mobile link -->
+    <a href="#team" class="w3-bar-item w3-button">TEAM.</a>
+  </div>
+</div>
+<!-- end of the mobile and medium/smaller viewport devices navigational bar -->
+
+<!-- beginning of the main (content) -->
+
+<!-- class attribute, groups all elements in this class together. --> 
+<!-- id refers to the unique page and applies to that single element (main). -->
+<div class="w3-padding-large" id="main">
+  
+  <!-- beginning of the header -->
+  <!-- id refers to the unique page and applies to that single element (home). -->
+ <header class="w3-container w3-padding-32 w3-center" id="home">
+    <!-- banner images created by Aida Tuhcic. -->
+    <img src="images/banner.jpg" alt="banner" class="w3-image">
+ </header>  
+  
+  <!-- beginning of ideal section, content added, h2 changed by Sunayana 7th April-->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (problem). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="problem">
+    <h2 class="w3-text-light-grey">Ideal</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- ideal text -->
+    <p>To promote awareness on the rising cases of the invasive blacklegged tick population within Toronto's parks through a user-friendly interactive map.
+    </p>
+    <!-- end of ideal section -->
+  </div>
+
+  <!-- beginning of raelity section, content added, h2 changed by Sunayana 7th April -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (process). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="process">
+    <h2 class="w3-text-light-grey">Reality</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- reality text -->
+    <p>Lack of public and user-friendly web interactive map. The City of Toronto currently only provides raw data, but not a web map for users to view certain locations of the blacklegged ticks in the parks. As well, most of the population in Ontario resides in Toronto and the city is a hub for tourism. 
+    </p>
+    <!-- end of reality section -->
+  </div>
+
+  <!-- beginning of consequences section, content added, h2 changed by Sunayana 7th April -->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (solution). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="solution">
+    <h2 class="w3-text-light-grey">Consequences</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- consequences text -->
+    <p>Lyme disease has been on a rising high, it's impacted the health of hundreds of people within Ontario and even major Canadian celebrities (have raised awareness.) The harmful ticks are destructive to other ecosystems and mamamals. The disease currently carries no permanent cure. 
+    </p>
+    <!-- end of consequences section -->
+  </div>
+
+  <!-- beginning of proposal section, content added, h2 changed by Sunayana 7th April-->
+  <!-- class attribute, groups all elements in this class together. --> 
+  <!-- id refers to the unique page and applies to that single element (team). -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="team">
+    <h2 class="w3-text-light-grey">Proposal</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- proposal text -->
+    <p>To promote awareness on the rising cases of the invasive blacklegged tick population within Toronto's parks through a user-friendly interactive map.
+    </p>
+    <!-- end of proposal section -->
+  
+    </div>
+  <!-- beginning of technology section, content added, h2 changed by Sunayana 7th April-->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="team">
+    <h2 class="w3-text-light-grey">Technology Used</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+   <!-- Insert logos for- ArcGIS Online, ArcGIS ST (Conservation Outreach), github -->
+   <!-- end of technology section -->
+   </div>
+  </div>
+<!-- end of the main (content) -->
+
+  <!-- beginning of the footer -->
+  <!-- edited and commented by Aida on April 7th -->
+  <footer class="w3-content w3-padding-64 w3-xlarge">
+    <p class="w3-medium">Copyright &#169; <a href="" target="_blank" class="w3-hover-text-green">Web Charlie 2022.</a></p>
+  <!-- end of the footer -->
+  </footer>
+
+</body>
+<!-- end of the body -->
 </html>
+<!-- end of the html -->
